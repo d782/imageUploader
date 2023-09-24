@@ -1,0 +1,52 @@
+@import '/src/styles.scss';
+
+:host{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    background-color: $white;
+    align-items: center;
+    padding: 4rem 3rem 2rem 3rem;
+    border-radius: 8px;
+    box-shadow: .3rem .5rem .3rem .5rem $light-gray-four;
+    .check-image{
+        height: 40px;
+        width: 40px;
+        margin-bottom: 1rem;
+    }
+    .p-card{
+        font-size: 1.8rem;
+        font-weight: bolder;
+        margin-bottom: 2rem;
+    }
+    .image-uploaded{
+        border-radius: 8px;
+        width: 350px;
+        height: 200px;
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+    .link-container{
+        display: flex;
+        width: 100%;
+        align-items: stretch;
+        margin-bottom: 1.5rem;
+    }
+
+    .input-card,
+    .input-card:focus{
+        flex: 1;
+        border-radius: 8px;
+        border:1px solid $dark-font;
+        background-color: $light-gray-four;
+        outline: none;
+        padding-left: 5px;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    
+    .btn-card{
+        margin-left: -10px;
+    }
+}

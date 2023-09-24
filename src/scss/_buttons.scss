@@ -1,0 +1,13 @@
+.btn{
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    background-color: $light-gray-two;
+    border: 0;
+    cursor:pointer;
+    &--primary{
+        background-color: $blue-primary;
+        color: white;
+        font-size: 1.3rem;
+    }
+}

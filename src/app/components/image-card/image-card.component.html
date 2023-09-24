@@ -1,0 +1,8 @@
+<img src="/assets/icons8-check.svg" class="check-image"/>
+<p class="p-card">Uploaded Successfully!</p>
+<img [src]="srcImage" class="image-uploaded"/>
+<div class="link-container">
+    <input type="text" name="linkToImage" class="input-card" [(ngModel)]="linkToImage" #imageRef="ngModel"/>
+    <button class="btn btn--primary btn-card" (click)="copyLink()">Copy Link</button>
+</div>
+<button class="btn btn--primary btn-card" (click)="mainMenu()">Back to main</button>

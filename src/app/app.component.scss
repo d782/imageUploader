@@ -1,0 +1,8 @@
+@import '/src/styles.scss';
+
+:host{
+    background-color: $light-gray;
+    display: flex;
+    height: inherit;
+    transition: all ease-out .6;
+}

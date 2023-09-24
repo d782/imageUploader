@@ -1,0 +1,6 @@
+<ng-container *ngIf="!loading; else loadingTemplate">
+    <app-image-uploader [error]="error"></app-image-uploader>
+</ng-container>
+<ng-template #loadingTemplate>
+    <app-loading></app-loading>
+</ng-template>

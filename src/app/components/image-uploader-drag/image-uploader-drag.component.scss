@@ -1,0 +1,21 @@
+@import '/src/styles.scss';
+
+:host{
+    border: 1px dashed $blue-primary;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    .draggable{
+        &-p{
+            margin-bottom: 3rem;
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: $dark-font;
+        }
+        
+        &-image{
+            margin: 3rem 6rem 3rem 6rem;
+        }
+    }
+}

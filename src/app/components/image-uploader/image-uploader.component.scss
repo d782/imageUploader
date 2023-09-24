@@ -1,0 +1,43 @@
+@import '/src/styles.scss';
+
+:host{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    background-color: $white;
+    padding: 4rem 3rem 2rem 3rem;
+    border-radius: 8px;
+    box-shadow: .3rem .5rem .3rem .5rem $light-gray-four;
+
+    .upload{
+        &__card{
+            font-weight: 300;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+        &__p{
+            font-size: 1.2rem;
+            font-weight: 100;
+            color: $dark-font-two;
+            margin-bottom: 2rem;
+            &--option{
+                font-size: 1.2rem;
+                margin-bottom: 2rem;
+                color: $dark-font;
+            }
+        }
+    }
+
+    .file-input-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p-error{
+        color: crimson;
+        font-size: 1.2rem;
+        font-weight: 100;
+        margin-bottom: 2rem;
+    }
+}
